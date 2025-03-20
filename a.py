@@ -14,8 +14,8 @@ font_tittle = ImageFont.truetype("1font/1font-medium.ttf", 34)
 font_text = ImageFont.truetype("1font/1font-regular.ttf", 25)
 font_date = ImageFont.truetype("date_font.ttf", 20)
 #Приветсвие
-draw.text((10, 10), f"Присет мы Рома и Дима!", fill=(255, 255, 255), font=font_tittle)
-draw.text((10, 45), f"это наша фотокарточка", fill=(255, 255, 255), font=font_tittle)
+draw.text((10, 10), f"Имя", fill=(255, 255, 255), font=font_tittle)
+draw.text((10, 45), f"это моя фотокарточка", fill=(255, 255, 255), font=font_tittle)
 
 #Текст
 draw.text((image.width - 630, image.height - 60), f"День самоуправления", fill=(255, 255, 255), font=font_text)
